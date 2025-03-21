@@ -7,9 +7,9 @@ const HomePage = () => {
   return (
     <div>
         <HomeCarosel/>
-        <div className=' mx-2 border-b-1 border-slate-300 py-2  md:mx-7 text-3xl  font-medium font-serif text-slate-800 uppercase my-5'>men </div>
+        <div className=' mx-2 border-b-1 border-slate-300 py-2  md:mx-7 text-3xl  font-medium font-serif text-slate-800 uppercase my-5'>men's dress </div>
         <HomeSectionCarousel/>
-        <div className=' mx-2 border-b-1 border-slate-300 py-2  md:mx-7 text-3xl  font-medium font-serif text-slate-800 uppercase my-5'>women</div>
+        <div className=' mx-2 border-b-1 border-slate-300 py-2  md:mx-7 text-3xl  font-medium font-serif text-slate-800 uppercase my-5'>women's dress</div>
         <HomeSectionCarousel/>
     </div>
   )
