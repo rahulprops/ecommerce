@@ -1,18 +1,14 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar.jsx";
 import { BrowserRouter } from "react-router-dom";
-import HomeCarosel from "./components/HomeCarosel.jsx";
+import HomePage from "./pages/HomePage.jsx";
 
 function App() {
-  const [message, setMessage] = useState("hello");
-
   return (
     <BrowserRouter>
-<Navbar />
-<HomeCarosel/>
+      <Navbar />
+      <HomePage />
     </BrowserRouter>
-      
-    
   );
 }
 
