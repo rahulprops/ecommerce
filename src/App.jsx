@@ -1,10 +1,16 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar.jsx";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
+  const [message, setMessage] = useState("hello");
+
   return (
-    <>
-      <div className=" text-2xl">hello</div>
-    </>
+    <BrowserRouter>
+<Navbar />
+    </BrowserRouter>
+      
+    
   );
 }
 
